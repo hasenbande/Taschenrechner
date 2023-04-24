@@ -1,0 +1,58 @@
+body {
+    font-family: 'Bruno Ace', cursive;
+    margin:0;
+}
+table {
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(44, 38, 38);
+    color: white ;
+}
+td {
+width: 25%;
+text-align: center;
+background-color: rgb(32, 30, 30);
+font-size: 50px;
+}
+
+td:hover {
+background-color: rgb(65, 59, 59);
+cursor: pointer;
+}
+
+
+#resultArea {
+height: 30vh;
+background-color: rgb(40, 40, 40);
+color: white;
+font-size: 64px;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+padding: 24px;
+box-sizing: border-box;
+}
+
+.math {
+background-color: rgb(24, 18, 18);
+}
+
+.math:hover {
+    background-color: rgb(58, 53, 53);
+}
+
+#result {
+    background-color: rgb(17, 90, 139); 
+}
+
+#result:hover {
+    background-color: rgb(24, 109, 165);  
+}
+
+#delet {
+    background-color: rgb(165, 24, 54); 
+}
+
+#delet:hover {
+    background-color: rgb(223, 39, 79);
+}
